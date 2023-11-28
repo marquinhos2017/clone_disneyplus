@@ -9,6 +9,15 @@
         margin-top: 50px;
         display: flex;
         justify-content: space-around;
+
+        @media (max-width: 768px){
+            display: block;
+        }
+
+        .button{
+            margin-top: 24px;
+        }
+        
         &__item{
             max-width: 380px;
             width: 100%;
@@ -26,7 +35,7 @@
             padding: 60px 44px 44px;
             strong{
                 display: block;
-                margin-top:24px;
+                margin-top: 24px;
             
             }
         }
